@@ -38,6 +38,9 @@ If they are not compatible with your system, please contact the authors.
 The communication module `src/folding_control/src/xmlrpclib-1.0.1` needs to be copied over to the Windows machine.
 Sample usage can be found in `src/folding_control/src/communication_module.py`.
 
+- Sample trajectories from the off-line simulation are in `src/folding_planner/traj`. 
+The garments include a sweater, a pair of pants, and a mid-size towel.
+
 - We also provide three test images for your quick test of the key point localization in `/images`.
 A sample result is shown below. The images from the left to right: initial contour template, detected key points, and key points mapping back to the original image.
 ![sample](https://github.com/Yinxiaoli/IROS2015/blob/master/keypoints_sweater.png)
