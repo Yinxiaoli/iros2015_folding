@@ -1,0 +1,91 @@
+$Id: //modules/xmlrpclib/README#8 $
+
+====================================================================
+The xmlrpclib module
+====================================================================
+
+This kit contains a Python implementation for Userland's XML-RPC
+protocol.  It also includes server frameworks for SocketServer and
+Medusa.
+
+</F>
+
+fredrik@pythonware.com
+http://www.pythonware.com
+
+
+release info
+------------
+
+This is version 1.0.1 of xmlrpclib.py.
+
+This version fixes a number of minor bugs, and adds optional support
+for xmlToolkit's xmlrpc accelerator (currently not included in the
+free distribution).  It also loads xmllib and other support libraries
+only when needed, to speed up the initial import.
+
+This is beta software.  There are no known bugs.
+
+The XML-RPC specification can be found at:
+
+	http://www.xml-rpc.com
+
+The sgmlop parser can be used to speed up this library 10-15x.  The
+parser can be found at:
+
+	http://www.pythonware.com/products/xml/sgmlop.htm
+
+Comments, bug reports, and patches are welcome.  Send them to:
+
+	fredrik@pythonware.com
+
+Note that this is free software, with limited support.  If you need
+commercial support on this module, please contact info@pythonware.com.
+
+
+contents
+--------
+
+README			this file
+
+xmlrpclib.py		client library
+
+SimpleXMLRPCServer.py   an XML RPC server framework based on Socket-
+			Server, from Python 2.2 (by Brian Quinlan)
+
+xmlrpc_handler.py	an XML RPC handler for Medusa (by Sam Rushing)
+
+xmlrpcserver.py		a minimalistic server
+
+
+license
+-------
+
+The xmlrpclib library is
+
+Copyright (c) 1999-2002 by Secret Labs AB
+Copyright (c) 1999-2002 by Fredrik Lundh
+
+By obtaining, using, and/or copying this software and/or its
+associated documentation, you agree that you have read, understood,
+and will comply with the following terms and conditions:
+
+Permission to use, copy, modify, and distribute this software and its
+associated documentation for any purpose and without fee is hereby
+granted, provided that the above copyright notice appears in all
+copies, and that both that copyright notice and this permission notice
+appear in supporting documentation, and that the name of Secret Labs
+AB or the author not be used in advertising or publicity pertaining to
+distribution of the software without specific, written prior
+permission.
+
+SECRET LABS AB AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO
+THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS.  IN NO EVENT SHALL SECRET LABS AB OR THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+--------------------------------------------------------------------
+
