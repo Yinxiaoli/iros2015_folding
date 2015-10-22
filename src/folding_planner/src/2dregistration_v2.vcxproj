@@ -86,21 +86,21 @@
     </ClCompile>
     <ClCompile Include="distancefield.cpp" />
     <ClCompile Include="FoldPlanner.cpp" />
-    <ClCompile Include="garment_template.cpp" />
+    <ClCompile Include="GarmentTemplate.cpp" />
     <ClCompile Include="ImageUtil.cpp" />
     <ClCompile Include="ImagePreprocessor.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="registration.cpp" />
+    <ClCompile Include="Registration.cpp" />
     <ClCompile Include="ObjectSegmenter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="datatypes.h" />
     <ClInclude Include="distancefield.h" />
     <ClInclude Include="FoldPlanner.h" />
-    <ClInclude Include="garment_template.h" />
+    <ClInclude Include="GarmentTemplate.h" />
     <ClInclude Include="ImageUtil.h" />
     <ClInclude Include="ImagePreprocessor.h" />
-    <ClInclude Include="registration.h" />
+    <ClInclude Include="Registration.h" />
     <ClInclude Include="ObjectSegmenter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
