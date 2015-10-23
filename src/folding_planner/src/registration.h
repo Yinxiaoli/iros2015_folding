@@ -1,4 +1,4 @@
-// A class that implements the computations of the
+// A set of functions that implement the computations of the
 // E_fit, E_bend, and E_stretch in the paper.
 
 #ifndef __REGISTRATION_H__

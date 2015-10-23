@@ -1,4 +1,4 @@
-// A class that implements distance field computation from an image.
+// A set of functions that compute distance field from an image.
 
 #ifndef __DISTANCE_FIELD_H__
 #define __DISTANCE_FIELD_H__
