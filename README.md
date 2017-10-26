@@ -26,6 +26,8 @@ The Linux server side is automatically launched after the `fold.py` is launched.
 
 - The [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) library and [GL](http://freeglut.sourceforge.net/) library are required. 
 
+- If you are using Ubuntu, you can jump into `/folding_planner_cmake` and compile the things inside for key points detection. 
+
 - The program requires additional three libraries to compile, which are `aerialeye.lib`, `blackbill.lib`, and `bluetail.lib`. 
 Here we only provide binaries (compiled using Visual Studio 2010) for research purposes, which can be found in `src/folding_planner/external/libs`. 
 All the header files are in `src/folding_planner/external/hdrs`.
