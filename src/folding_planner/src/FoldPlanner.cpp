@@ -2,7 +2,7 @@
 
 FoldPlanner::FoldPlanner()
 {
-
+ // Constructor.
 }
 
 void FoldPlanner::MappingTrajectory(vector<keyPoint>* point_list, GarmentType garment)
