@@ -1,5 +1,6 @@
 #include "FoldPlanner.h"
 
+// Constructor.
 FoldPlanner::FoldPlanner()
 {
 
